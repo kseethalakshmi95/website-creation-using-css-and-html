@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-size: 30px;
+}
+
+header {
+    background-image: url(../beach.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: red;
+}
+
+ul li.active a {
+    background-color: white;
+    color: red;
+}
+
+.logo img {
+    height: auto;
+    width: 150px;
+    float: left;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: violet;
+    font-size: 65px;
+}
+
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    padding: 10px 30px;
+    border: 1px solid green;
+    color: #fff;
+    text-decoration: none;
+}
